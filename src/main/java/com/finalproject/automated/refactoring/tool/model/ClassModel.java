@@ -31,7 +31,7 @@ public class ClassModel {
     private String implement;
 
     @Builder.Default
-    private List<String> attributes;
+    private List<PropertyModel> attributes;
 
     @Builder.Default
     private List<MethodModel> methodModels;
