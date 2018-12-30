@@ -36,4 +36,8 @@ public class MethodModel {
     private String body;
 
     private Long loc;
+
+    private Long nom;
+
+    private Long nof;
 }
