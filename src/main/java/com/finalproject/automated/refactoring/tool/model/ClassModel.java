@@ -19,8 +19,6 @@ public class ClassModel {
     @Builder.Default
     private List<String> imports;
 
-    private String contentOuter;
-
     @Builder.Default
     private List<String> keywords = new ArrayList<>();
 
@@ -36,7 +34,7 @@ public class ClassModel {
     @Builder.Default
     private List<MethodModel> methodModels;
 
-    private String contentInner;
+    private String fullContent;
 
     private Long loc;
 
