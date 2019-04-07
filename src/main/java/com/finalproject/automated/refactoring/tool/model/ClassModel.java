@@ -34,6 +34,8 @@ public class ClassModel {
     @Builder.Default
     private List<MethodModel> methodModels;
 
+    private String path;
+
     private String fullContent;
 
     private Long loc;
